@@ -1,0 +1,85 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body{
+    background-color: #e5dddd;
+}
+.img-box {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.img {
+    width: 150px;
+    height: 170px;
+    
+}
+.card{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.name{
+    height: 44px;
+}
+.input{
+    height: 50px;
+    width: 300px;
+    padding:10px 10px !important;
+    border-radius: 10px;
+    border: 2px solid #1a1a1e;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    padding-left: 20px;
+    
+}
+.input:focus{
+    outline: none;
+    border-color: #000;
+}
+.button{
+    background: #1F2937;
+    color: #fff;
+    padding: 8px 15px;
+    border: 2px solid #1F2937;
+    border-radius: 30px;
+    transition: 0.5s;
+    &:hover{
+background-color: #fff;
+color: #1F2937;
+    }
+}
+.filter{
+    cursor: pointer;
+    font-size: 16px;
+     border: 2px solid transparent;
+     font-weight: bolder;
+      transition: 0.5s;
+      padding: 10px 10px;
+    &:hover{
+        border: 2px solid #000;
+    }
+}
+.search-box{
+    position: relative;
+}
+.searched{
+    width: 300px;
+    background-color: #ccc;
+    position: absolute;
+    right: 50px;
+   
+
+}
+.searched-box{
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    &:hover{
+        background-color: #fff;
+    }
+}
